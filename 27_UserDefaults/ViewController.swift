@@ -16,6 +16,10 @@ class ViewController: UIViewController {
         
         let isOn = UserDefaults.standard.switchIsOn
         updateBackground(isOn: isOn)
+        
+        let user = User(firstName: "Antony", lastName: "Bil")
+        UserDefaults.standard.singedInUser = user
+        print("The signed in user is: \(UserDefaults.standard.singedInUser)")
     }
 
 
