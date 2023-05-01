@@ -13,6 +13,7 @@
 		15AA62442A0012C30016F2E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15AA62422A0012C30016F2E8 /* Main.storyboard */; };
 		15AA62462A0012C40016F2E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15AA62452A0012C40016F2E8 /* Assets.xcassets */; };
 		15AA62492A0012C40016F2E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15AA62472A0012C40016F2E8 /* LaunchScreen.storyboard */; };
+		15AA62512A001EB40016F2E8 /* UserDefaults + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AA62502A001EB40016F2E8 /* UserDefaults + Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		15AA62452A0012C40016F2E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15AA62482A0012C40016F2E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15AA624A2A0012C40016F2E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15AA62502A001EB40016F2E8 /* UserDefaults + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults + Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				15AA623E2A0012C30016F2E8 /* SceneDelegate.swift */,
 				15AA62402A0012C30016F2E8 /* ViewController.swift */,
 				15AA62422A0012C30016F2E8 /* Main.storyboard */,
+				15AA62502A001EB40016F2E8 /* UserDefaults + Extensions.swift */,
 				15AA62452A0012C40016F2E8 /* Assets.xcassets */,
 				15AA62472A0012C40016F2E8 /* LaunchScreen.storyboard */,
 				15AA624A2A0012C40016F2E8 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15AA62512A001EB40016F2E8 /* UserDefaults + Extensions.swift in Sources */,
 				15AA62412A0012C30016F2E8 /* ViewController.swift in Sources */,
 				15AA623D2A0012C30016F2E8 /* AppDelegate.swift in Sources */,
 				15AA623F2A0012C30016F2E8 /* SceneDelegate.swift in Sources */,
