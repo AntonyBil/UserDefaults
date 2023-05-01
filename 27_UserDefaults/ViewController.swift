@@ -9,14 +9,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var switchView: UISwitch!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let isOn = UserDefaults.standard.bool(forKey: "switchIsOn")
+        updateBackground(isOn: isOn)
     }
 
 
     @IBAction func switchToggled(_ sender: UISwitch) {
-        view.backgroundColor = sender.isOn ? .orange : .darkGray
+        updateBackground(isOn: sender.isOn)
+        
+        //Use UserDefaults
+        UserDefaults.standard.setValue(sender.isOn, forKey: "switchIsOn")
+    }
+    
+    private func updateBackground(isOn: Bool) {
+        view.backgroundColor = isOn ? .orange : .darkGray
+        switchView.isOn = isOn
     }
 }
 
